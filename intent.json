@@ -1,0 +1,27 @@
+{"intents": [
+{"tag": "greetings",
+"patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+"responses" : ["Hello!", "Hey!" "what can I do for you?"]
+ },
+  {"tag": "goodbye",
+    "patterns": ["See you later", "Goodbye", "I am Leaving","Have a good day", "bye","cao","See ya"],
+    "responses": ["Sad to see you go", "Talk to you later", "Good bye"]
+  },
+{"tag": "age",
+"patterns": ["How old", "How old are you?", "age" "What is your age"],
+"responses" : ["My owner Aiman is 28 years old", "28 Years Old!", "Old enough to party!"]
+},
+  {"tag": "name",
+    "patterns": ["what is your name","what should I call you","whats your name?","who are you?","Can you tell me who I am speaking to"],
+    "responses": ["I am Katy!", "I'm Katy the assistant of Aiman.","You can call me Katy!"]
+  },
+  {"tag": "shop",
+    "patterns": ["Id like to buy something", "what are your products?", "what do you recommend ? ", "What are you selling"],
+    "responses": ["I'd recommend things from Shopee or Lazada", "Shopee has a sale, you can check it out on their website"]
+  },
+  {
+  "tag": "hours"
+    "patterns": ["When are you open", "Day of operation", "Opening hours", "Open or close"],
+    "responses":["24/7", "Everyday, all day"]
+  }
+  ]}
